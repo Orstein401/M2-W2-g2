@@ -20,7 +20,7 @@ public class Ex2 : MonoBehaviour
         int molti = 1;
         for (int i=0; i<array.Length; i++)
         {
-            somma = array[i] + somma;
+            somma = array[i]+somma;
             molti = array[i]*molti;
             
         }
