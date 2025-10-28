@@ -9,13 +9,14 @@ public class Extra : MonoBehaviour
     {
         Debug.Log("tabellina del cinque");
         int tabe;
-        for (int i = 1;i <= 10; i++)
+        for (int i = 1; i <= 10; i++)
         {
             tabe = 5 * i;
             Debug.Log(tabe);
         }
         Debug.Log("tabellina tua");
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++)
+        {
             tabe = num * i;
             Debug.Log(tabe);
         }
@@ -24,6 +25,6 @@ public class Extra : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
